@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/home"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/programmes_icon"
+            android:title="Programmes" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/hod"
+            android:title="Head of the Department"
+            />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/faculties"
+            android:title="Faculties"/>
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:icon="@drawable/project_research_icon"
+            android:title="Projects and Research" />
+        <item
+            android:id="@+id/nav_sixth_layout"
+            android:icon="@drawable/facilities"
+            android:title="Facilities" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Conatct Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Photo Gallery" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="About Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="The department has been offering postgraduate course in Computer Application (MCA) since 2000.With the introduction of the program, the Institute extends its long years of expertise into the field of Computer Applications. The department provides well furnished laboratories and updated systems and an energetic staff who empower the students to take up real time projects in application, software solutions designing and data management.The Department also provides advanced simulation laboratory, VLSI Laboratory, research labs for Phd students , Lab for network and data security , MATLAB tools for image processing.The post graduate degree is specializing its students in business applications and software development thus fulfilling its pledge to the IT industry.The department also offers M. Tech in Software Engineering and Ph. D programmes since 2011 and having adequate number of research publications in International Conferences and Journals.
+            "/>
+    </LinearLayout>
+</RelativeLayout>
